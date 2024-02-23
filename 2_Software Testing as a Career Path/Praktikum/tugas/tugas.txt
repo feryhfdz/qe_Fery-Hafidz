@@ -1,0 +1,14 @@
+Skill yang dibutuhkan Software Tester dibagi 2:
+
+(a).Non-Technical Skills : 
+-Analytical Skill: Kemampuan untuk menganalisis dan memecah masalah menjadi bagian-bagian yang lebih kecil. Ini penting untuk memahami sistem yang diuji, mengidentifikasi potensi bug, dan memahami akar permasalahannya.
+-Communication Skill: Kemampuan untuk berkomunikasi secara efektif, baik secara tertulis maupun lisan. Ini penting untuk menjelaskan masalah yang ditemukan kepada tim pengembang, berkolaborasi dengan tim lain, dan menyampaikan laporan pengujian dengan jelas.
+-Time Management & Organization Skill: Kemampuan untuk mengatur waktu dan pekerjaan dengan baik. Ini penting untuk memenuhi tenggat waktu, memprioritaskan tugas, dan memastikan bahwa semua area pengujian tercakup.
+-Great Attitude: Punya sikap positif, mau belajar, dan terbuka terhadap feedback. Ini penting untuk bekerja dalam tim, beradaptasi dengan perubahan, dan menghadapi tantangan dengan semangat.
+-Passion: Memiliki minat dan semangat yang tinggi dalam bidang pengujian perangkat lunak. Ini akan membantu Anda tetap termotivasi dan terus belajar hal baru. 
+
+(b).Technical Skills: 
+-Basic knowledge of Unix/Linux Command: Pengetahuan dasar tentang perintah-perintah Unix/Linux dapat membantu dalam mengotomatiskan tugas-tugas tertentu, seperti menjalankan skrip pengujian atau mengakses file sistem.
+-Test Management Tool: Kemampuan menggunakan alat manajemen pengujian seperti Jira, TestRail, atau Zephyr untuk melacak bug, menjalankan test case, dan melapor kemajuan pengujian.
+-Tracking Management Tool: Kemampuan menggunakan alat pelacak bug seperti Bugzilla atau JIRA untuk melaporkan bug, menetapkan prioritas, dan melacak perbaikannya.
+-Automation Management Tool: Kemampuan menggunakan alat otomatisasi pengujian seperti Selenium, Cypress, atau Robot Framework untuk mengotomatiskan proses pengujian yang berulang-ulang.
