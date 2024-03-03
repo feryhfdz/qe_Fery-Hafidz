@@ -1,5 +1,21 @@
-#Kesimpulan
-Hasil menunjukkan kalau pengujian berhasil, status ls menunjukkan 200 OK yang artinya permintaan API berhasil.
-Rata-rata waktu respons API adalah 66.13ms, yang tergolong cepat.
-Waktu respons maksimum adalah 378.44ms, yang masih tergolong dalam batas toleransi.
-Throughput rata-rata adalah 38.749 requests per detik, menunjukkan bahwa API dapat menangani beban yang cukup tinggi.
+## WEB
+
+![App Screenshot](./screenshots/web.png)
+Perfomance : 96%
+
+Accessibility : 42%
+
+Best Practice : 89%
+
+SEO : 64%
+
+## MOBILE
+
+![App Screenshot](./screenshots/mobile.png)
+Perfomance : 100%
+
+Accessibility : 42%
+
+Best Practice : 89%
+
+SEO : 54%
