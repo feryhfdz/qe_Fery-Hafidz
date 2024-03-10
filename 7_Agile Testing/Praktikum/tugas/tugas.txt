@@ -1,0 +1,23 @@
+1. -Requirements Gathering
+Peran QA pada fase ini yaitu membantu untuk menentukan tujuan pengujian, metodologi, dan alat yang akan digunakan.
+-Design
+Peran QA yaitu merancang test case untuk memvalidasi desain softwere.
+-Development
+QA menguji unit untuk memastikan fungsionalitas modul-modul softwere dapat berjalan sesuai dengan spesifikasi.
+-Testing
+QA melacak dan melaporkan bug yang ditemukan pada saat pengujian dan membantu tim developer dalam debugging dan memperbaiki bug dan melakukan berbagai jenis pengujian.
+-Deployment
+QA memastikan produk siap untuk digunakan dan memenuhi pesyaratan kualitas.
+-Maintenance
+QE melakukan pengujian regresi untuk memastikan bahwa perubahan pada perangkat lunak tidak menyebabkan bug baru.
+
+2. -Testing is Always Behind
+Dinamisme Agile: Karena persyaratan bisa berubah selama sprint, test case yang sudah disiapkan mungkin perlu diadaptasi atau bahkan dibuat ulang. Hal ini bisa membuat pengujian terasa selalu tertinggal dari pengembangan.
+-Automation is Even Further Behind That
+Kurangnya Waktu: Membuat dan memelihara automation test membutuhkan waktu dan sumber daya. Dalam sprint yang singkat, tim mungkin memprioritaskan penulisan test case manual terlebih dahulu, sehingga automation testing menjadi tertinggal lebih jauh.
+-Testers Can't Work Until Development is Done
+Keterlibatan Awal Minim: Jika tester tidak dilibatkan sejak awal fase perencanaan sprint, mereka mungkin kesulitan memahami fitur baru dengan cepat. Akibatnya, pengujian baru bisa dimulai setelah development selesai.
+-There is Pressure at the End of a Sprint
+Fokus Deliverable: Tekanan untuk memenuhi target sprint bisa membuat pengujian yang komprehensif dikesampingkan. Hal ini dapat menyebabkan bug yang lolos ke tahap selanjutnya.
+-There is Blame Around Bugs (It's His Fault, Etc.)
+Budaya Saling Menyalahkan: Agile menekankan kolaborasi. Namun, munculnya bug terkadang bisa memicu sikap saling menyalahkan antara tim development dan testing. Ini bisa menghambat komunikasi dan perbaikan masalah.
