@@ -1,16 +1,1 @@
-#soal_prioritas_2
-
--Functional Testing
-Menguji fungsi utama aplikasi, seperti promo, live streaming, dan alur jual beli. Memastikan semua fitur yang terdapat pada aplikasi berjalan sesuai dengan spesifikasi yang ditentukan.
-
--Usability Testing
-Memastikan aplikasi mudah digunakan, mudah dipahami oleh berbagai user. 
-
--Performance Testing
-Menguji aplikasi dapat menangani pada lonjakan trafik dan waktu respon yang cepat. Melakukan pengujian load testing, stress testing, dan endurance testing untuk mengukur performa aplikasi.
-
--Security Testing
-Memastikan data pengguna terlindungi dan aman, dan menguji aplikasi dari berbagai jenis serangan.
-
--Regression Testing
-Memastikan perubahan kode tidak menimbulkan efek samping yang tidak diinginkan.
+https://docs.google.com/document/d/1EJW2EM3j8VdgiwdXvv1Tu8O_t7QtMNJ23F8nq1IoLD0/edit?usp=sharing
