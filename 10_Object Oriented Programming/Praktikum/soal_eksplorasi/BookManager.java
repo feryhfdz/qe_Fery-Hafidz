@@ -4,12 +4,8 @@ import java.util.Scanner;
 import java.util.UUID;
 
 class Book {
-    private String id;
-    private String title;
-    private String author;
-    private String category;
+    private String id, title, author, category;
 
-    //constructor untuk membuat object buku dengan unique ID
     public Book(String title, String author, String category) {
         this.id = UUID.randomUUID().toString();
         this.title = title;
@@ -17,7 +13,6 @@ class Book {
         this.category = category;
     }
 
-    // Getters and Setters untuk atribut buku
     public String getId() {
         return id;
     }
@@ -46,7 +41,6 @@ class Book {
         this.category = category;
     }
 
-    // toString method for printing book details
     @Override
     public String toString() {
         return "===\nID: " + id + "\nTitle: " + title + "\nAuthor: " + author + "\nCategory: " + category + "\n===";
@@ -54,14 +48,12 @@ class Book {
 }
 
 public class BookManager {
-    // List untuk menyimpan semua buku
     private static List<Book> books = new ArrayList<>();
-    // Scanner untuk input pengguna
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        boolean running = true;
-        while (running) {
+        boolean menu = true;
+        while (menu) {
             System.out.println("Welcome to book management app\nPlease choose your menu:");
             System.out.println("1. Create a new book");
             System.out.println("2. Get all books");
@@ -69,6 +61,7 @@ public class BookManager {
             System.out.println("4. Update book");
             System.out.println("5. Delete book");
             System.out.println("6. Exit");
+            System.out.print("Enter your choice (1-6): ");
 
             int choice = scanner.nextInt();
             scanner.nextLine(); 
@@ -91,38 +84,39 @@ public class BookManager {
                     break;
                 case 6:
                     System.out.println("Bye...");
-                    running = false;
+                    menu = false;
                     break;
                 default:
-                    System.out.println("Invalid option.");
+                    System.out.println("Invalid option. Please try again!");
                     break;
             }
         }
     }
 
-    // method untuk menambahkan buku
     private static void createBook() {
-        System.out.println("Enter title:");
+        System.out.print("Enter title: ");
         String title = scanner.nextLine();
-        System.out.println("Enter author:");
+        System.out.print("Enter author: ");
         String author = scanner.nextLine();
-        System.out.println("Enter category:");
+        System.out.print("Enter category: ");
         String category = scanner.nextLine();
         Book newBook = new Book(title, author, category);
         books.add(newBook);
         System.out.println("Book created with ID: " + newBook.getId());
+        System.out.println("\nInformasi buku yang telah diinput:");
+    for (Book book : books) {
+      System.out.println(book); // Memanggil method toString() dari kelas Book
+    }
     }
 
-    // method untuk menampilkan semua buku
     private static void getAllBooks() {
         for (Book book : books) {
             System.out.println(book);
         }
     }
 
-    //method untuk mencari buku berdasarkan ID
     private static void getBookById() {
-        System.out.println("Enter book ID:");
+        System.out.print("Enter book ID: ");
         String id = scanner.nextLine();
         for (Book book : books) {
             if (book.getId().equals(id)) {
@@ -133,19 +127,18 @@ public class BookManager {
         System.out.println("Book not found.");
     }
 
-    // Method untuk memperbarui informasi buku
     private static void updateBook() {
-        System.out.println("Enter book ID:");
+        System.out.print("Enter book ID: ");
         String id = scanner.nextLine();
         for (Book book : books) {
             if (book.getId().equals(id)) {
-                System.out.println("Enter title:");
+                System.out.print("Enter title: ");
                 book.setTitle(scanner.nextLine());
-                System.out.println("Enter author:");
+                System.out.print("Enter author: ");
                 book.setAuthor(scanner.nextLine());
-                System.out.println("Enter category:");
+                System.out.print("Enter category: ");
                 book.setCategory(scanner.nextLine());
-                System.out.println("Book updated!");
+                System.out.print("\nBook updated!\n");
                 System.out.println(book);
                 return;
             }
@@ -153,12 +146,11 @@ public class BookManager {
         System.out.println("Book not found.");
     }
 
-    // Method untuk menghapus buku berdasarkan ID
     private static void deleteBook() {
-        System.out.println("Enter book ID:");
+        System.out.print("Enter book ID: ");
         String id = scanner.nextLine();
         books.removeIf(book -> book.getId().equals(id));
-        System.out.println("Book deleted.");
+        System.out.println("Book deleted!");
     }
 }
 
