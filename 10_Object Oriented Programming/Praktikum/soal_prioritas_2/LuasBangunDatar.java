@@ -1,30 +1,33 @@
 public class LuasBangunDatar {
   private static final double PHI = 3.14;  
-  // Menghitung luas persegi
+  // Luas persegi
   public static int getLuasPersegi(int sisi) {
     return sisi * sisi;
   }
   
-  // Menghitung luas persegi panjang
-  public static int getLuasPersegiPanjang(int panjang, int lebar) {
-    return panjang * lebar;
+  // Luas persegi panjang
+  public static int getLuasPersegiPanjang(int p, int l) {
+    return p * l;
   }
   
-  // Menghitung luas lingkaran
-  public static double getLuasLingkaran(int radius) {
-    return PHI * radius * radius;
+  // Luas lingkaran
+  public static double getLuasLingkaran(int r) {
+    return PHI * r * r;
   }
   
-  // Menghitung luas trapesium
-  public static double getLuasTrapesium(int sisiA, int sisiB, int tinggi) {
-    return 0.5 * (sisiA + sisiB) * tinggi;
+  // Luas trapesium
+  public static float getLuasTrapesium(int alasA, int alasB, int t) {
+    return ((alasA + alasB) * t) / 2;
   }
   
   
   public static void main(String[] args) {
-    System.out.println("luas persegi: " + getLuasPersegi(12));
-    System.out.println("luas persegi panjang: " + getLuasPersegiPanjang(7, 8));
-    System.out.println("luas lingkaran: " + getLuasLingkaran(21));
-    System.out.println("luas trapesium: " + getLuasTrapesium(5, 6, 2));
+    System.out.println("Luas Persegi: " + getLuasPersegi(12));
+    System.out.println("===");
+    System.out.println("Luas Persegi Panjang: " + getLuasPersegiPanjang(7, 8));
+    System.out.println("===");
+    System.out.println("Luas Lingkaran: " + getLuasLingkaran(21));
+    System.out.println("===");
+    System.out.println("Luas Trapesium: " + getLuasTrapesium(5, 6, 2));
   }
 }
