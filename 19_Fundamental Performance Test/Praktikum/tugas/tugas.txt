@@ -1,0 +1,60 @@
+1. Jenis-jenis Performance Testing:
+*Smoke Testing:
+Pengujian awal yang dilakukan untuk mendeteksi cacat kritis yang dapat menyebabkan kegagalan fungsional utama.
+Digunakan untuk memverifikasi bahwa fitur utama aplikasi berfungsi seperti yang diharapkan.
+Dilakukan dengan cepat dan fokus pada fitur utama.
+
+*Load Testing:
+Mengukur performa aplikasi di bawah beban pengguna yang berbeda.
+Digunakan untuk mengidentifikasi titik-titik bottleneck dan memastikan aplikasi dapat menangani beban pengguna yang diharapkan.
+Dilakukan dengan menstimulasi aplikasi dengan sejumlah besar pengguna simultan.
+
+*Stress Testing:
+Menguji batas aplikasi dengan memberikan beban yang ekstrem.
+Digunakan untuk mengidentifikasi titik-titik kegagalan aplikasi dan memastikan aplikasi dapat pulih dengan cepat dari kegagalan.
+Dilakukan dengan memberikan beban yang lebih besar dari yang diharapkan aplikasi.
+
+*Spike Testing:
+Mengukur respons aplikasi terhadap lonjakan beban pengguna yang tiba-tiba.
+Digunakan untuk memastikan aplikasi dapat menangani lonjakan trafik yang tidak terduga.
+Dilakukan dengan menstimulasi aplikasi dengan sejumlah besar pengguna simultan dalam waktu singkat.
+
+*Soak Testing:
+Menjalankan aplikasi di bawah beban pengguna yang konstan untuk jangka waktu yang lama.
+Digunakan untuk mengidentifikasi kebocoran memori, masalah performa, dan masalah lainnya yang mungkin muncul seiring waktu.
+Dilakukan dengan menstimulasi aplikasi dengan sejumlah besar pengguna simultan selama beberapa jam atau hari.
+
+
+2. Tantangan dalam melakukan performance testing:
+
+1. Menentukan Metrik yang Tepat:
+
+Memilih metrik kinerja yang tepat untuk diukur merupakan langkah krusial. Metrik yang tidak tepat dapat menghasilkan kesimpulan yang menyesatkan dan menghambat identifikasi masalah kinerja yang sebenarnya. Faktor-faktor seperti tujuan pengujian, jenis sistem, dan skenario pengguna harus dipertimbangkan dalam pemilihan metrik.
+
+2. Memilih Alat yang Tepat:
+
+Berbagai jenis alat pengujian kinerja tersedia dengan fitur dan kemampuan yang berbeda-beda. Memilih alat yang tepat sangat penting untuk memastikan kelancaran dan keefektifan proses pengujian. Faktor-faktor seperti skalabilitas, kemudahan penggunaan, dan fitur-fitur yang ditawarkan perlu dipertimbangkan.
+
+3. Menciptakan Skenario Pengujian yang Realistis:
+
+Skenario pengujian yang tidak realistis dapat menghasilkan hasil yang tidak mencerminkan kinerja sistem di dunia nyata. Penting untuk mensimulasikan beban pengguna yang sebenarnya dan kondisi penggunaan yang bervariasi dalam skenario pengujian.
+
+4. Menangani Gangguan Intermiten:
+
+Gangguan intermiten, seperti masalah jaringan atau kegagalan server, dapat membuat pengujian kinerja menjadi sulit dan tidak konsisten. Penting untuk memiliki strategi untuk menangani gangguan ini dan memastikan bahwa hasilnya tidak terpengaruh.
+
+5. Menganalisis Hasil Pengujian:
+
+Menganalisis hasil pengujian kinerja bisa menjadi tugas yang kompleks, terutama untuk sistem yang kompleks. Alat visualisasi data dan teknik statistik dapat membantu dalam memahami dan menginterpretasikan hasil dengan lebih baik.
+
+6. Mengkomunikasikan Hasil Pengujian:
+
+Hasil pengujian kinerja perlu dikomunikasikan secara efektif kepada para pemangku kepentingan. Hal ini membutuhkan penyajian data yang jelas dan ringkas, serta rekomendasi yang dapat ditindaklanjuti untuk meningkatkan kinerja sistem.
+
+7. Memastikan Keterulangan Pengujian:
+
+Pengujian kinerja harus dapat diulang dengan hasil yang konsisten untuk memastikan bahwa perubahan pada sistem tidak berdampak negatif pada performanya. Hal ini membutuhkan dokumentasi yang jelas tentang proses pengujian dan konfigurasi sistem.
+
+8. Mempertahankan Pengujian Kinerja:
+
+Pengujian kinerja harus dilakukan secara berkelanjutan untuk memastikan bahwa sistem terus berkinerja optimal seiring dengan perubahan dan pertumbuhan. Hal ini membutuhkan integrasi pengujian kinerja ke dalam proses pengembangan dan penerapan sistem.

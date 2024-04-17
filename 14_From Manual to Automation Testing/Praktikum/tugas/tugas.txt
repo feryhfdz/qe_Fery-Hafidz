@@ -1,0 +1,29 @@
+1. Jenis-jenis Performance Testing:
+-Load testing: menguji kinerja aplikasi dengan peningkatan beban kerja dalam waktu tertentu. Beban kerja ini bisa berupa pengguna bersamaan, jumlah transaksi, perilaku aplikasi, dan lain-lain. Tujuannya adalah untuk mengamati waktu respon, tingkat throughput, penggunaan sumber daya, dan lain-lain. Dengan mengidentifikasi hambatan kinerja pada atribut-atribut ini, Anda dapat memperbaikinya sebelum meluncurkan aplikasi untuk memastikan pengalaman pengguna yang lebih baik. Load testing juga membantu Anda memahami berapa banyak pengguna bersamaan yang dapat ditangani oleh aplikasi pada satu waktu.
+-Stress testing: menguji kinerja aplikasi di luar parameter kerja normal. Artinya, aplikasi diberi beban kerja yang lebih tinggi dari yang dapat ditangani, seperti lalu lintas pengguna atau data yang ekstrim. Tujuannya adalah untuk mengetahui stabilitas aplikasi. Pada titik mana aplikasi gagal, dan bagaimana aplikasi pulih dari kegagalan tersebut?
+-Spike testing: menguji kinerja aplikasi saat beban kerja meningkat secara tiba-tiba dan berulang. Beban kerja ini melebihi ekspektasi normal untuk waktu yang singkat. Spike testing adalah jenis stress testing yang digunakan untuk menguji reaksi aplikasi terhadap lonjakan beban yang tidak terduga.
+-Endurance testing: menguji kinerja aplikasi selama periode yang lama dengan beban kerja yang normal dan tetap. Dengan kata lain, mengetahui seberapa lama aplikasi dapat bertahan dengan beban kerja yang konstan untuk memberikan keberlanjutan jangka panjang. Selama pengujian ini, tim pengujian memantau KPI seperti kebocoran memori, penggunaan memori, kekurangan memori, dan lain-lain. Endurance testing juga menganalisis waktu respon dan throughput setelah penggunaan yang lama untuk menampilkan apakah metrik ini konsisten atau tidak.
+-Scalability testing: menguji kinerja aplikasi dengan meningkatkan beban kerja secara bertahap. Tujuannya adalah untuk menentukan efektivitas aplikasi dalam "meningkatkan skala" untuk mendukung peningkatan beban pengguna. Scalability testing membantu Anda memahami batas kapasitas aplikasi dan sumber daya yang dibutuhkan untuk menangani beban yang lebih besar.
+-Volume testing: menguji kinerja aplikasi dengan menambahkan volume data yang besar dalam basis data. Tujuannya adalah untuk mengetahui dampak volume data terhadap kinerja aplikasi, seperti waktu respon, throughput, dan penggunaan sumber daya.
+
+2. Tools yang dapat digunakan untuk melakukan performance testing:
+
+-JMeter
+    JMeter mampu menangani berbagai jenis pengujian, termasuk load testing, stress testing, dan functional testing.
+    *Kelebihan: Fleksibel, banyak komunitas pengguna, plugin berlimpah.
+    *Kekurangan: Kurang user-friendly bagi pemula, membutuhkan kurva belajar.
+
+-Locust
+    Locust adalah alat performance testing open-source yang ditulis dengan bahasa Python. Ia dikenal dengan kemudahan penggunaannya dan kemampuannya untuk membuat skrip pengujian yang realistis.
+    *Kelebihan: Open-source dan Gratis: Hemat biaya dan komunitas pengguna yang aktif.
+                Pythonic: Mudah dipelajari dan digunakan bagi developer yang familiar dengan Python.
+                Skenario Realistis: Memungkinkan pembuatan skrip pengujian yang meniru perilaku pengguna nyata.
+                Web UI dan Terdistribusi: Menawarkan antarmuka web untuk pemantauan dan mendukung distribusi beban testing.
+    *Kekurangan: Fitur Terbatas: Dibandingkan alat enterprise seperti LoadRunner, Locust memiliki fitur yang lebih terbatas.
+                 Kurang Ideal untuk Pengujian Skala Besar: Untuk pengujian skala sangat besar, Locust mungkin memerlukan kustomisasi tambahan.
+
+- Gatling
+    Gatling adalah alat open-source yang dirancang untuk performance testing modern. Ia menawarkan skalabilitas tinggi, distribusi load testing, dan integrasi continuous delivery.
+    *Kelebihan: Mudah digunakan, skalabilitas tinggi, komunitas aktif.
+    *Kekurangan: Fitur lanjutan membutuhkan plugin berbayar.
+
