@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Payment" skipped="0" tests="3" time="0.16" timestamp="2024-04-20 02:49:26"><testcase name="Make Payments via DANA"/><testcase name="Make Payments via Gopay"/><testcase name="Make Payments via Virgo"/></testsuite>
