@@ -1,0 +1,1 @@
+Penjelasan terdapat pada link berikut [Google Docs](https://docs.google.com/document/d/1TExXfAS2QHiPjriygf1wsHXW9gKH16eSA_6z_KtJakM/edit?usp=sharing)
