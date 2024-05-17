@@ -1145,3 +1145,30 @@
 [38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAZACAYAAABQfnXMAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFx3fe//95l91b5asi15jZ2VQOKEfStlSXvLmtI2BQK90P4ovYW2wI+blLJ04xJ+LVwuvRcCpbQl0KbQprRALglriIEkJN5ix7Et2ZKsXSPNvpzfH5o5nhmNRnOkGUm2X89HUyxp5syZmTMz7/mez/fzNV597CFTAAAAAGri2OgdAAAAAC4mBGgAAADABgI0AAAAYAMBGgAAALCBAA0AAADYQIAGAAAAbCBAAwAAADYQoAEAAAAbCNAAAACADQRoAAAAwAYCNAAAAGADARoAAACwgQANAAAA2ECABgAAAGwgQAMAAAA2EKABAAAAGwjQAAAAgA0EaAAAAMAGAjQAAABgAwEaAAAAsIEADQAAANhAgAYAAABsIEADAAAANhCgAQAAABsI0AAAAIANBGgAAADABgI0AAAAYAMBGgAAALCBAA0AAADYQIAGAAAAbCBAAwAAADYQoAEAAAAbXBu9A1hfPodD/Z6AdvqC2u8Pq9/rV7PTLVNSJJvWcDKuI/GInkpEdTYZV8rMbfQuYw0MSW7DIadhNGT7pkylcqZyMhuyfQAANiMC9GXkWaFWvblzuzrdHrmNpScf2l0eDXqDen5Th1JmTufTSf3N2CkdiUc2YG+xVk7D0G5fSM8MtqjD7W3I6aZoLqufLczoUDyiZI4vWwCAywMB+jKw1evXb3Rs0w2hVut3aTOnU4mYxtIJLWQzkqSw06Uej0+D3qA8hkNbPX59ZNt+PTQ/rS9NDmk0ldiQ/Xcahvo9fg14A+rx+Er+NpZK6HQyprOpuLImo6DFut1evbFjq/b6Q3IbDjViDDpt5rTLF1Jq4oyeiPFFC+ujy+3VjaE23Tczaut6t7T26uDCtMbTyQbt2aVt0BtUp3txoKXYqWRUE+mUTiWjG7RnF7+rAk360Nb9Ff925/AR...
 [38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/b41c2b6d-a610-4c25-8311-91688fbf80cc/screenshot [39m[32m200[39m [90m350 ms - 101388[39m
 [38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b41c2b6d-a610-4c25-8311-91688fbf80cc[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Calling AppiumDriver.deleteSession() with args: ["b41c2b6d-a610-4c25-8311-91688fbf80cc"]
+[38;5;16m[AppiumDriver@e297][0m Event 'quitSessionRequested' logged at 1715951383544 (20:09:43 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@e297][0m Removing session b41c2b6d-a610-4c25-8311-91688fbf80cc from our master session list
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Deleting UiAutomator2 session
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Deleting UiAutomator2 server session
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Matched '/' to command name 'deleteSession'
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:63532/session/82789897-de82-4a8e-947f-ef6a4a9a8e4c] with no body
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Got response with status 200: {"sessionId":"82789897-de82-4a8e-947f-ef6a4a9a8e4c","value":null}
+[38;5;64m[ADB][0m Running 'C:\Users\skaha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0962509I25101C9C shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;80m[Logcat][0m Stopping logcat capture
+[38;5;96m[Instrumentation][0m .
+[38;5;64m[ADB][0m Removing forwarded port socket connection: 63532 
+[38;5;64m[ADB][0m Running 'C:\Users\skaha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0962509I25101C9C forward --remove tcp:63532'
+[38;5;96m[Instrumentation][0m Time: 1.180,637
+[38;5;96m[Instrumentation][0m 
+[38;5;96m[Instrumentation][0m OK (1 test)
+[38;5;48m[AndroidUiautomator2Driver@1746 (b41c2b6d)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Running 'C:\Users\skaha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0962509I25101C9C shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;96m[Instrumentation][0m The process has exited with code 0
+[38;5;16m[AppiumDriver@e297][0m Event 'quitSessionFinished' logged at 1715951384097 (20:09:44 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@e297][0m Received response: null
+[38;5;16m[AppiumDriver@e297][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@e297][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /wd/hub/session/b41c2b6d-a610-4c25-8311-91688fbf80cc [39m[32m200[39m [90m573 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
