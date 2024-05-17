@@ -1,0 +1,1 @@
+Details pengerjaan terdapat pada [Link Google Docs](https://docs.google.com/document/d/1iBBjGTSsH71hWORsgrYMs5dq8vPgbMb9T7ls7bFZEII/edit?usp=sharing)
